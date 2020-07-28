@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size:50px;
+    }
+
+    .hello{
+        font-size:50px;
+        top: 250px;
+        left: 100px;
+    }
+
+    .mainmenu{
+        display: none;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-container hr{
+        height: 0;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    #sphere{
+        width:300px;
+        height: 300px;
+    }
+
+    #planet{
+        width:280px;
+        height: 300px;
+    }
+
+    #back{
+        height: 0;
+    }
+
+    .contact-info a{
+        font-size: 30px;
+    }
+}

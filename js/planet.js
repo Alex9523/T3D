@@ -2,6 +2,10 @@ function planet() {
     var container = document.querySelector("#planet");
     var width = 400
     var height = 400;
+
+    container.setAttribute('width', width)
+    container.setAttribute('height', height)
+
     var aspect = width / height;
     var renderer = new THREE.WebGLRenderer({canvas: container});
     renderer.setSize(width, height);

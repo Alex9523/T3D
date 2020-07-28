@@ -1,0 +1,17 @@
+.work{
+    background-color: black;
+}
+
+.skills{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill{
+    margin: 0 50px;
+}
+
+h3{
+    margin-top: 0;
+}
